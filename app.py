@@ -61,7 +61,7 @@ st.write(f"Estimated Body Fat Percentage: {body_fat_percentage:.2f}%")
 
 #---------------------------------#
 # About
-expander_bar = st.beta_expander("About")
+expander_bar = st.expander("About")  # Updated to st.expander
 expander_bar.markdown("""
 * **Python libraries:** streamlit, PIL, math
 * **BMI Formula:** Weight (kg) / (Height (m)^2)
